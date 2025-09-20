@@ -4,7 +4,7 @@ Real-time Solar System demo for CGD6214. Uses GLFW for window/input, GLEW for Op
 Features orbit, free, and focus cameras; hierarchical transforms (Earth→Moon, Jupiter→Europa); Blinn–Phong lighting with an emissive Sun; orbit lines; a starfield sky; HUD circle; time scaling and pause; FOV control; and FPS shown in the title bar and console.
 
 <p align="center">
-  <img src="https://imgur.com/a/Cdho3XP" alt="Solar System screenshot" width="800">
+ <img src="https://i.imgur.com/H2aZIOK.png" alt="Solar System screenshot" width="800">
 </p>
 
 > Put a screenshot at `media/hero.png`. If you prefer another path or filename, update the `<img src="...">` accordingly.
