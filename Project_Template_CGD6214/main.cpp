@@ -1,4 +1,13 @@
-﻿#define STB_IMAGE_IMPLEMENTATION
+﻿// ===== Solar System — OpenGL 3.3 (single file) =====
+// Features: Orbit/Free/Focus cameras, Phong lighting, textures, rings, starfield,
+// orbit lines, pause & time control, HUD 2D circle, Europa (Jupiter moon).
+// Controls:
+//   1 Orbit cam, 2 Free cam (RMB look + WASD/QE), 3 Focus cam (N/P cycle)
+//   Mouse wheel: zoom/FOV | H: toggle orbit lines | B: toggle stars
+//   [ / ] time speed | Space pause/resume | F11 or Alt+Enter fullscreen
+//   - / = FOV | Z/X focus-cam distance | ESC quit
+
+#define STB_IMAGE_IMPLEMENTATION
 #include "stb_image.h"
 
 #include <GL/glew.h>
@@ -11,8 +20,8 @@
 #include <iostream>
 #include <vector>
 #include <cmath>
-#include <iomanip>   
-#include <cstdio>    
+#include <iomanip>   // << std::setprecision
+#include <cstdio>    // std::snprintf
 
 // ===================== FORCE CONSOLE (Windows) =====================
 #ifdef _WIN32
